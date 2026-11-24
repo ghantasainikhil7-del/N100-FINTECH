@@ -73,11 +73,20 @@ export default function HomeOverview({ onSelectCompany }) {
       <div className="rounded-2xl bg-[#1C1C1E] border border-[rgba(255,255,255,0.08)] p-6 shadow-2xl">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-2 mb-2 flex-wrap">
               <span className="text-[11px] font-bold text-[#30D158] bg-[#30D158]/15 border border-[#30D158]/30 px-2.5 py-0.5 rounded-full flex items-center gap-1.5">
                 <span className="pulse-green-dot" /> NIFTY 100 REAL-TIME CONSTITUENTS
               </span>
               <span className="text-xs text-[#636366] font-mono">BSE / NSE AUDITED</span>
+              <a 
+                href="https://n100-api.onrender.com/docs" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="text-[10px] font-mono font-bold bg-[#0A84FF]/20 text-[#0A84FF] border border-[#0A84FF]/40 px-2 py-0.5 rounded-full hover:bg-[#0A84FF]/30 transition-all flex items-center gap-1"
+                title="Live FastAPI REST Engine deployed on Render"
+              >
+                FastAPI: Online ↗
+              </a>
             </div>
             <div className="text-3xl font-extrabold text-white tracking-tight flex items-baseline gap-2.5">
               <span>{marketStatus.price.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>

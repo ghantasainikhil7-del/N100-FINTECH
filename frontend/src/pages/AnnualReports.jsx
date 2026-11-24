@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Download, ExternalLink, FileText, CheckCircle2, Building2, Globe2, Layers, Search } from 'lucide-react';
 import { useBluestockData } from '../context/useBluestockData';
 import { RAW_DOCUMENTS_DATA } from '../data/bluestockDatasets';
+import { getTearsheetPdfUrl, getSectorPdfUrl } from '../services/api';
 
 const SECTORS_LIST = [
   "Financials", "Energy", "Information Technology", "Consumer Discretionary", 
@@ -30,34 +31,15 @@ export default function AnnualReports() {
 
   // Download publication-grade 2-page PDF Tearsheet
   const handleDownloadTearsheet = (ticker) => {
-    const url = `/reports/tearsheets/${ticker}_tearsheet.pdf`;
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `${ticker}_tearsheet.pdf`;
-    link.target = '_blank';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const url = getTearsheetPdfUrl(ticker);
+    window.open(url, '_blank');
   };
 
   // Download publication-grade Sector Intelligence PDF Report
   const handleDownloadSectorReport = (sector) => {
-    const sectorMap = {
-      "Information Technology": "Information_Technology_report.pdf",
-      "Financials": "Financials_report.pdf",
-      "Energy": "Energy_report.pdf",
-      "Healthcare": "Healthcare_report.pdf",
-      "Materials": "Materials_report.pdf",
-      "Consumer Discretionary": "Consumer_Discretionary_report.pdf",
-      "Automobiles": "Consumer_Discretionary_report.pdf",
-      "Consumer Staples": "Consumer_Staples_report.pdf",
-      "Fast Moving Consumer Goods": "Consumer_Staples_report.pdf",
-      "FMCG": "Consumer_Staples_report.pdf",
-      "Industrials": "Industrials_report.pdf",
-      "Communication Services": "Communication_Services_report.pdf",
-      "Telecommunication": "Communication_Services_report.pdf",
-      "Real Estate": "Real_Estate_report.pdf",
-      "Conglomerates": "Energy_report.pdf",
+    const url = getSectorPdfUrl(sector);
+    window.open(url, '_blank');
+  };
     };
     const targetFile = sectorMap[sector] || `${sector.replace(/[^\w\-]/g, '_')}_report.pdf`;
     const url = `/reports/sector/${targetFile}`;

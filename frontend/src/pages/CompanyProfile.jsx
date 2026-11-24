@@ -15,6 +15,7 @@ import {
   Download
 } from 'lucide-react';
 import { useBluestockData } from '../context/useBluestockData';
+import { getTearsheetPdfUrl } from '../services/api';
 
 export default function CompanyProfile({ selectedTicker, onSelectCompany }) {
   const { 
@@ -95,10 +96,11 @@ export default function CompanyProfile({ selectedTicker, onSelectCompany }) {
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
-                window.open(`/reports/tearsheets/${currentCompany.id}_tearsheet.pdf`, '_blank');
+                const pdfUrl = getTearsheetPdfUrl(currentCompany.id);
+                window.open(pdfUrl, '_blank');
               }}
               className="px-3 py-1.5 rounded-xl bg-white text-black font-bold text-xs hover:bg-[#E5E5EA] transition-all flex items-center gap-1.5 shadow-sm active:scale-95"
-              title={`Download 2-Page Tearsheet PDF for ${currentCompany.id}`}
+              title={`Download 2-Page Tearsheet PDF for ${currentCompany.id} via FastAPI`}
             >
               <Download className="w-3.5 h-3.5 stroke-[2.5]" />
               PDF Tearsheet
