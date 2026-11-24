@@ -4,6 +4,18 @@
 > *Full-Stack Architecture: React 18 (Vite + Tailwind CSS + Lucide) + FastAPI Backend + SQLite Relational Engine*  
 > *All monetary values standardized in ₹ Crore*
 
+[![Live Frontend](https://img.shields.io/badge/Live%20Frontend-Vercel-black?style=for-the-badge&logo=vercel)](https://n100-fintech.vercel.app/)
+[![API Backend](https://img.shields.io/badge/FastAPI%20Docs-Render-green?style=for-the-badge&logo=fastapi)](https://n100-api.onrender.com/docs)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://python.org)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+
+---
+
+## 🌐 Live Production Deployments
+- 💻 **Interactive Web Application (Vercel):** [https://n100-fintech.vercel.app/](https://n100-fintech.vercel.app/)
+- ⚙️ **Interactive Swagger API Documentation (Render):** [https://n100-api.onrender.com/docs](https://n100-api.onrender.com/docs)
+- 📑 **API ReDoc Specification:** [https://n100-api.onrender.com/redoc](https://n100-api.onrender.com/redoc)
+
 ---
 
 ## 📌 Executive Summary
