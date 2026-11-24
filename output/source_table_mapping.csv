@@ -1,0 +1,13 @@
+source_id,source_file,source_sheet,destination_table,rows_read,rows_valid,rows_rejected,mapping_status
+SRC-01,companies.xlsx,Sheet1,companies,92,92,0,MAPPED
+SRC-02,profitandloss.xlsx,Sheet1,profitandloss,1070,1070,0,MAPPED
+SRC-03,balancesheet.xlsx,Sheet1,balancesheet,1140,1140,0,MAPPED
+SRC-04,cashflow.xlsx,Sheet1,cashflow,1056,1056,0,MAPPED
+SRC-05,analysis.xlsx,Sheet1,analysis,4,4,0,MAPPED
+SRC-06,documents.xlsx,Sheet1,documents,1457,1457,0,MAPPED
+SRC-07,prosandcons.xlsx,Sheet1,prosandcons,14,14,0,MAPPED
+SRC-08,sectors.xlsx,Sheet1,sectors,92,92,0,MAPPED
+SRC-09,stock_prices.xlsx,Sheet1,stock_prices,5520,5520,0,MAPPED
+SRC-10,financial_ratios.xlsx,Sheet1,financial_ratios,1041,1041,0,MAPPED
+SRC-11,peer_groups.xlsx,Sheet1,peer_groups,56,56,0,MAPPED
+SUPP-MCAP,market_cap.xlsx,Sheet1,market_cap,552,552,0,MAPPED

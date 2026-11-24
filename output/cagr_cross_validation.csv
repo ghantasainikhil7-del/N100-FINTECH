@@ -1,0 +1,7 @@
+company_id,metric,parsed_cagr_5yr,computed_cagr_5yr,divergence,divergence_flag
+HDFCBANK,sales_cagr,18.5,21.95,3.45,False
+HDFCBANK,pat_cagr,19.0,23.87,4.87,False
+TCS,sales_cagr,12.86,10.46,2.4,False
+TCS,pat_cagr,10.5,7.87,2.63,False
+INFY,sales_cagr,15.79,13.2,2.59,False
+RELIANCE,sales_cagr,17.56,9.61,7.95,True

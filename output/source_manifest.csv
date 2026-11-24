@@ -1,0 +1,13 @@
+source_id,source_file,source_path,source_type,source_sheet,destination_table,load_mode,required,rows_discovered,mapping_status,mapping_notes
+SRC-01,companies.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/companies.xlsx,excel,Companies,companies,upsert,true,92,MAPPED,Deterministically matched
+SRC-02,profitandloss.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/profitandloss.xlsx,excel,Profit & Loss,profitandloss,replace,true,1276,MAPPED,Deterministically matched
+SRC-03,balancesheet.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/balancesheet.xlsx,excel,Balance Sheet,balancesheet,replace,true,1312,MAPPED,Deterministically matched
+SRC-04,cashflow.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/cashflow.xlsx,excel,Cash Flow,cashflow,replace,true,1187,MAPPED,Deterministically matched
+SRC-05,analysis.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/analysis.xlsx,excel,Analysis,analysis,replace,true,20,MAPPED,Deterministically matched
+SRC-06,documents.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/documents.xlsx,excel,Documents,documents,replace,true,1585,MAPPED,Deterministically matched
+SRC-07,prosandcons.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/raw/prosandcons.xlsx,excel,Pros & Cons,prosandcons,replace,true,16,MAPPED,Deterministically matched
+SRC-08,sectors.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/supporting/sectors.xlsx,excel_or_csv,Sheet1,sectors,upsert,true,92,MAPPED,Deterministically matched
+SRC-09,stock_prices.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/supporting/stock_prices.xlsx,excel_or_csv,Sheet1,stock_prices,replace,true,5520,MAPPED,Deterministically matched
+SRC-10,financial_ratios.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/supporting/financial_ratios.xlsx,excel_or_csv,Sheet1,financial_ratios,replace,true,1184,MAPPED,Deterministically matched
+SRC-11,peer_groups.xlsx,C:/Users/Nikhil/Downloads/Bluestock project N100/data/supporting/peer_groups.xlsx,excel_or_csv,Sheet1,peer_groups,replace,true,56,MAPPED,Deterministically matched
+SRC-12,company_master.csv,C:/Users/Nikhil/Downloads/Bluestock project N100/data/supporting/company_master.csv,excel_or_csv,N/A,companies,upsert,true,104,MAPPED,Deterministically matched

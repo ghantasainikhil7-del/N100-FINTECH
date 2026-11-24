@@ -1,0 +1,6 @@
+company_id,company_name,sector,years_coverage,latest_financial_year,sales_crore,net_profit_crore,debt_status,cfo_crore,cfo_status,dq_status,sign_off
+TCS,Tata Consultancy Services Ltd,Information Technology,12,2024-03,240893,46099,"Borrowings ₹8,021 Cr",44338,Positive CFO,PASSED (0 Critical),APPROVED
+HDFCBANK,HDFC Bank Ltd,Financials,12,2024-03,283649,65446,Bank Leverage,19069,Positive CFO,PASSED (0 Critical),APPROVED
+RELIANCE,Reliance Industries Ltd,Energy,12,2024-03,899041,79020,"Borrowings ₹458,991 Cr",158788,Positive CFO,PASSED (0 Critical),APPROVED
+MARUTI,Maruti Suzuki India Ltd,Consumer Discretionary,12,2024-03,141858,13488,Borrowings ₹119 Cr,16801,Positive CFO,PASSED (0 Critical),APPROVED
+ABB,ABB India Ltd,Industrials,12,2024-03,5849,1201,Borrowings ₹83 Cr,6038,Positive CFO,PASSED (0 Critical),APPROVED

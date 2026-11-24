@@ -1,0 +1,6 @@
+company_id,company_name,sector,pl_years,bs_years,cf_years,latest_sales_cr,latest_pat_cr,latest_de_ratio,audit_status
+RELIANCE,Reliance Industries Ltd.,Energy & Materials,14,14,14,898942.00,69624.00,0.41,PASSED_VERIFIED
+TCS,Tata Consultancy Services Ltd.,Information Technology,14,14,14,240893.00,45908.00,0.00,PASSED_VERIFIED
+HDFCBANK,HDFC Bank Ltd.,Financials,14,14,14,161586.00,60812.00,0.85,PASSED_VERIFIED
+ITC,ITC Ltd.,Consumer Staples,14,14,14,70251.00,20422.00,0.00,PASSED_VERIFIED
+LT,Larsen & Toubro Ltd.,Industrials,14,14,14,221113.00,13059.00,1.15,PASSED_VERIFIED

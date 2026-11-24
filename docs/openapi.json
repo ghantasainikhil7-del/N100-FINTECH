@@ -1,0 +1,153 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Nifty 100 Financial Intelligence API",
+    "description": "Production-grade RESTful API for 92 Nifty 100 constituents with 30+ financial KPIs, peer ranking, and screener.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/health": {
+      "get": {
+        "tags": ["Health"],
+        "summary": "Health Check",
+        "description": "Return API status, database row counts, uptime, and version.",
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "List Companies",
+        "description": "Return all 92 companies with sector and return metrics.",
+        "parameters": [
+          {"name": "sector", "in": "query", "schema": {"type": "string"}},
+          {"name": "market_cap_category", "in": "query", "schema": {"type": "string"}},
+          {"name": "search", "in": "query", "schema": {"type": "string"}}
+        ],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies/{ticker}": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Get Company Profile",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}, "404": {"description": "Not Found"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/pl": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Profit and Loss History",
+        "parameters": [
+          {"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}},
+          {"name": "from_year", "in": "query", "schema": {"type": "string"}},
+          {"name": "to_year", "in": "query", "schema": {"type": "string"}}
+        ],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/bs": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Balance Sheet History",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/cashflow": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Cash Flow History",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/ratios": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Computed Financial Ratios",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/tearsheet": {
+      "get": {
+        "tags": ["Companies"],
+        "summary": "Download Company Tearsheet PDF",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "PDF Binary", "content": {"application/pdf": {}}}}
+      }
+    },
+    "/api/v1/screener": {
+      "get": {
+        "tags": ["Screener"],
+        "summary": "Run Filter Screener",
+        "parameters": [
+          {"name": "min_roe", "in": "query", "schema": {"type": "number"}},
+          {"name": "max_de", "in": "query", "schema": {"type": "number"}},
+          {"name": "min_fcf", "in": "query", "schema": {"type": "number"}},
+          {"name": "sector", "in": "query", "schema": {"type": "string"}},
+          {"name": "min_rev_cagr_5yr", "in": "query", "schema": {"type": "number"}},
+          {"name": "min_pat_cagr_5yr", "in": "query", "schema": {"type": "number"}},
+          {"name": "max_pe", "in": "query", "schema": {"type": "number"}}
+        ],
+        "responses": {"200": {"description": "Ranked Screener Results"}, "400": {"description": "Bad Request"}}
+      }
+    },
+    "/api/v1/sectors": {
+      "get": {
+        "tags": ["Sectors"],
+        "summary": "List Sectors",
+        "responses": {"200": {"description": "11 Sectors with Median Benchmarks"}}
+      }
+    },
+    "/api/v1/sectors/{sector}/companies": {
+      "get": {
+        "tags": ["Sectors"],
+        "summary": "List Sector Constituents",
+        "parameters": [{"name": "sector", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}, "404": {"description": "Sector Not Found"}}
+      }
+    },
+    "/api/v1/peers/{group_name}": {
+      "get": {
+        "tags": ["Peers"],
+        "summary": "Peer Group Members",
+        "parameters": [{"name": "group_name", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}, "404": {"description": "Group Not Found"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/peers/compare": {
+      "get": {
+        "tags": ["Peers"],
+        "summary": "Radar Comparison Data",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "8-Axis Radar Data"}}
+      }
+    },
+    "/api/v1/market-cap/{ticker}": {
+      "get": {
+        "tags": ["Valuation"],
+        "summary": "Historical Valuation Multiples",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Successful Response"}}
+      }
+    },
+    "/api/v1/portfolio/stats": {
+      "get": {
+        "tags": ["Portfolio"],
+        "summary": "Portfolio Distribution Statistics",
+        "responses": {"200": {"description": "P10 to P90 Distribution"}}
+      }
+    },
+    "/api/v1/companies/{ticker}/documents": {
+      "get": {
+        "tags": ["Documents"],
+        "summary": "Annual Report Links",
+        "parameters": [{"name": "ticker", "in": "path", "required": true, "schema": {"type": "string"}}],
+        "responses": {"200": {"description": "Document Links"}}
+      }
+    }
+  }
+}

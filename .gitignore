@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Build Outputs
+frontend/dist/
+frontend/build/
+dist/
+build/
+*.egg-info/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+reports/pytest_report.html
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Temporary logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

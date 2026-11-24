@@ -1,0 +1,4 @@
+company_id,sector,metric,value,z_score
+INDIGO,Consumer Discretionary,return_on_equity_pct,892.57,3.47
+PNB,Financials,return_on_equity_pct,61.32,3.33
+ADANIGREEN,Energy,debt_to_equity,6.6,3.14

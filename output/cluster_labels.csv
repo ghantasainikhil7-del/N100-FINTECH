@@ -1,0 +1,93 @@
+company_id,cluster_id,cluster_name,distance_from_centroid
+ABB,0,High-Quality Compounders,0.293
+ADANIENSOL,1,Defensive Dividend Payers,0.661
+ADANIENT,1,Defensive Dividend Payers,0.419
+ADANIGREEN,4,Emerging Growth,2.467
+ADANIPORTS,3,Distressed or Turnaround,1.146
+ADANIPOWER,1,Defensive Dividend Payers,0.783
+AMBUJACEM,0,High-Quality Compounders,0.466
+APOLLOHOSP,1,Defensive Dividend Payers,0.859
+ASIANPAINT,0,High-Quality Compounders,0.666
+ATGL,1,Defensive Dividend Payers,0.499
+AXISBANK,4,Emerging Growth,0.976
+BAJAJ-AUTO,0,High-Quality Compounders,0.118
+BAJAJFINSV,1,Defensive Dividend Payers,1.213
+BAJAJHLDNG,3,Distressed or Turnaround,2.449
+BAJFINANCE,1,Defensive Dividend Payers,0.998
+BANKBARODA,4,Emerging Growth,1.508
+BEL,2,Value Cyclicals,0.761
+BHARTIARTL,3,Distressed or Turnaround,1.287
+BHEL,0,High-Quality Compounders,1.885
+BOSCHLTD,0,High-Quality Compounders,0.387
+BPCL,0,High-Quality Compounders,0.419
+BRITANNIA,0,High-Quality Compounders,0.113
+CANBK,4,Emerging Growth,2.346
+CHOLAFIN,4,Emerging Growth,1.267
+CIPLA,3,Distressed or Turnaround,0.692
+COALINDIA,3,Distressed or Turnaround,1.079
+DABUR,0,High-Quality Compounders,0.112
+DIVISLAB,0,High-Quality Compounders,0.374
+DLF,0,High-Quality Compounders,1.885
+DMART,1,Defensive Dividend Payers,0.815
+DRREDDY,0,High-Quality Compounders,0.681
+EICHERMOT,0,High-Quality Compounders,0.46
+GAIL,0,High-Quality Compounders,0.617
+GODREJCP,0,High-Quality Compounders,0.248
+GRASIM,0,High-Quality Compounders,0.574
+HAL,2,Value Cyclicals,0.761
+HAVELLS,0,High-Quality Compounders,0.776
+HCLTECH,0,High-Quality Compounders,0.627
+HDFCBANK,4,Emerging Growth,0.734
+HDFCLIFE,3,Distressed or Turnaround,1.218
+HEROMOTOCO,3,Distressed or Turnaround,1.649
+HINDALCO,3,Distressed or Turnaround,0.565
+HINDUNILVR,3,Distressed or Turnaround,0.684
+ICICIBANK,4,Emerging Growth,0.741
+ICICIGI,3,Distressed or Turnaround,0.377
+ICICIPRULI,3,Distressed or Turnaround,0.902
+INDIGO,3,Distressed or Turnaround,1.513
+INDUSINDBK,4,Emerging Growth,0.954
+INFY,0,High-Quality Compounders,0.7
+IOC,0,High-Quality Compounders,0.421
+IRCTC,1,Defensive Dividend Payers,0.782
+IRFC,4,Emerging Growth,1.611
+ITC,0,High-Quality Compounders,0.632
+JINDALSTEL,0,High-Quality Compounders,0.93
+JIOFIN,3,Distressed or Turnaround,0.55
+JSWENERGY,0,High-Quality Compounders,1.166
+JSWSTEEL,1,Defensive Dividend Payers,0.652
+KOTAKBANK,3,Distressed or Turnaround,1.185
+LICI,0,High-Quality Compounders,0.639
+LODHA,0,High-Quality Compounders,1.521
+LT,0,High-Quality Compounders,0.414
+LTIM,1,Defensive Dividend Payers,1.566
+M&M,0,High-Quality Compounders,0.555
+MARUTI,0,High-Quality Compounders,0.441
+MOTHERSON,0,High-Quality Compounders,0.456
+NAUKRI,1,Defensive Dividend Payers,0.732
+NESTLEIND,0,High-Quality Compounders,0.894
+NHPC,0,High-Quality Compounders,1.448
+NTPC,0,High-Quality Compounders,0.738
+ONGC,0,High-Quality Compounders,0.204
+PFC,4,Emerging Growth,1.275
+PIDILITIND,0,High-Quality Compounders,0.513
+PNB,1,Defensive Dividend Payers,1.121
+POWERGRID,3,Distressed or Turnaround,1.216
+RECLTD,4,Emerging Growth,1.938
+RELIANCE,0,High-Quality Compounders,0.224
+SBILIFE,1,Defensive Dividend Payers,1.205
+SBIN,1,Defensive Dividend Payers,1.217
+SHREECEM,0,High-Quality Compounders,0.315
+SHRIRAMFIN,1,Defensive Dividend Payers,0.843
+SIEMENS,0,High-Quality Compounders,0.493
+SUNPHARMA,0,High-Quality Compounders,0.44
+TATACONSUM,1,Defensive Dividend Payers,0.794
+TATAMOTORS,0,High-Quality Compounders,0.407
+TATAPOWER,1,Defensive Dividend Payers,0.61
+TATASTEEL,0,High-Quality Compounders,0.456
+TCS,0,High-Quality Compounders,0.401
+TECHM,0,High-Quality Compounders,0.456
+TITAN,1,Defensive Dividend Payers,0.488
+TORNTPHARM,0,High-Quality Compounders,0.447
+TRENT,1,Defensive Dividend Payers,2.323
+TVSMOTOR,1,Defensive Dividend Payers,1.106

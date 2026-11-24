@@ -1,0 +1,58 @@
+company_id,company_name,sector,P/E,P/B,EV/EBITDA,FCF_yield_pct,5yr_median_PE,PE_vs_sector_median_pct,flag
+ABB,ABB India Ltd,Industrials,98.0,16.5,63.7,0.85,78.5,157.9,Caution
+ADANIENSOL,Adani Energy Solutions Ltd,Energy,88.5,8.4,57.5,1.25,72.0,490.0,Caution
+ADANIGREEN,Adani Green Energy Ltd,Energy,118.0,22.5,76.7,1.85,95.0,686.7,Caution
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,Services,34.0,3.8,22.1,4.25,32.0,-38.2,Discount
+ADANIPOWER,Adani Power Ltd,Energy,11.2,2.8,7.3,3.95,11.4,-25.3,Discount
+AMBUJACEM,Ambuja Cements Ltd,Materials,36.5,3.2,23.7,2.15,28.5,102.8,Caution
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd,Healthcare,78.5,11.2,51.0,1.15,65.0,124.3,Caution
+ASIANPAINT,Asian Paints Ltd,Materials,52.0,14.5,33.8,1.95,58.0,188.9,Caution
+ATGL,Adani Total Gas Ltd,Energy,95.0,18.2,61.8,0.95,82.0,533.3,Caution
+BAJAJFINSV,Bajaj Finserv Ltd,Financials,33.2,4.8,21.6,2.10,32.5,79.5,Caution
+BAJFINANCE,Bajaj Finance Ltd,Financials,31.5,6.5,20.5,2.85,38.0,70.3,Caution
+BANKBARODA,Bank of Baroda,Financials,7.2,1.1,4.7,6.85,6.5,-61.1,Discount
+BHEL,Bharat Heavy Electricals Ltd,Industrials,110.0,3.8,71.5,0.45,45.0,189.5,Caution
+BPCL,Bharat Petroleum Corporation Ltd,Energy,5.8,1.4,3.8,8.25,5.2,-61.3,Discount
+CANBK,Canara Bank,Financials,6.4,0.9,4.2,7.45,5.8,-65.4,Discount
+CHOLAFIN,Cholamandalam Investment and Finance Company Ltd,Financials,29.8,5.2,19.4,2.45,26.0,61.1,Caution
+COALINDIA,Coal India Ltd,Energy,7.5,2.8,4.9,8.50,6.8,-50.0,Discount
+COFORGE,Coforge Ltd,Information Technology,44.5,8.2,28.9,2.65,36.5,58.9,Caution
+DIVISLAB,Divi's Laboratories Ltd,Healthcare,64.0,9.5,41.6,1.45,52.0,82.9,Caution
+DMART,Avenue Supermarts Ltd,Consumer Discretionary,98.0,14.2,63.7,0.75,85.0,78.2,Caution
+DRREDDY,Dr. Reddy's Laboratories Ltd,Healthcare,19.5,3.2,12.7,4.85,22.0,-44.3,Discount
+HAVELLS,Havells India Ltd,Industrials,68.0,11.8,44.2,1.35,55.0,78.9,Caution
+HDFCLIFE,HDFC Life Insurance Co Ltd,Financials,82.5,9.2,53.6,1.05,75.0,345.9,Caution
+HINDALCO,Hindalco Industries Ltd,Materials,11.8,1.3,7.7,6.15,10.5,-34.4,Discount
+ICICIGI,ICICI Lombard General Insurance Co Ltd,Financials,38.5,5.8,25.0,2.15,35.0,108.1,Caution
+ICICIPRULI,ICICI Prudential Life Insurance Co Ltd,Financials,68.2,7.5,44.3,1.25,62.0,268.6,Caution
+IOC,Indian Oil Corporation Ltd,Energy,6.2,1.1,4.0,7.95,5.8,-58.7,Discount
+IRFC,Indian Railway Finance Corp Ltd,Financials,28.5,3.5,18.5,3.15,18.0,54.1,Caution
+ITC,ITC Ltd,Fast Moving Consumer Goods,26.5,7.0,17.2,4.85,24.0,-41.1,Discount
+JINDALSTEL,Jindal Steel & Power Ltd,Materials,11.2,1.5,7.3,5.85,12.0,-37.8,Discount
+MAXHEALTH,Max Healthcare Institute Ltd,Healthcare,62.0,8.8,40.3,1.65,48.0,77.1,Caution
+MOTHERSON,Samvardhana Motherson International Ltd,Automobiles,42.5,4.2,27.6,2.15,32.0,63.5,Caution
+NESTLEIND,Nestle India Ltd,Fast Moving Consumer Goods,72.5,65.0,47.1,1.85,68.0,61.1,Caution
+ONGC,Oil & Natural Gas Corporation Ltd,Energy,7.2,0.9,4.7,8.85,6.5,-52.0,Discount
+PERSISTENT,Persistent Systems Ltd,Information Technology,48.2,9.8,31.3,2.45,38.0,72.1,Caution
+PFC,Power Finance Corporation Ltd,Financials,5.2,1.1,3.4,8.50,4.8,-71.9,Discount
+PIDILITIND,Pidilite Industries Ltd,Materials,75.0,18.2,48.8,1.25,65.0,316.7,Caution
+PNB,Punjab National Bank,Financials,8.1,1.0,5.3,6.25,7.0,-56.2,Discount
+RECLTD,REC Ltd,Financials,5.5,1.2,3.6,8.20,5.0,-70.3,Discount
+RELIANCE,Reliance Industries Ltd,Energy,24.8,2.2,16.1,2.85,22.0,65.3,Caution
+SBICARD,SBI Cards & Payment Services Ltd,Financials,28.4,4.9,18.5,2.65,32.0,53.5,Caution
+SBILIFE,SBI Life Insurance Co Ltd,Financials,74.0,8.5,48.1,1.15,68.0,300.0,Caution
+SBIN,State Bank of India,Financials,10.5,1.5,6.8,5.95,9.5,-43.2,Discount
+SHREECEM,Shree Cement Ltd,Materials,39.5,4.5,25.7,2.05,35.0,119.4,Caution
+SIEMENS,Siemens Ltd,Industrials,88.0,14.8,57.2,1.05,68.0,131.6,Caution
+SRF,SRF Ltd,Materials,42.0,5.8,27.3,1.85,35.0,133.3,Caution
+TATACONSUM,Tata Consumer Products Ltd,Fast Moving Consumer Goods,78.0,5.8,50.7,1.35,65.0,73.3,Caution
+TATAMOTORS,Tata Motors Ltd,Automobiles,10.5,2.1,6.8,6.85,12.0,-59.6,Discount
+TATAPOWER,Tata Power Co Ltd,Energy,32.5,4.5,21.1,2.35,26.0,116.7,Caution
+TORNTPHARM,Torrent Pharmaceuticals Ltd,Healthcare,58.0,8.5,37.7,1.85,48.0,65.7,Caution
+TRENT,Trent Ltd,Consumer Discretionary,145.0,28.5,94.3,0.45,85.0,163.6,Caution
+TVSMOTOR,TVS Motor Company Ltd,Automobiles,52.0,11.5,33.8,1.45,38.0,100.0,Caution
+ULTRACEMCO,UltraTech Cement Ltd,Materials,38.0,4.2,24.7,2.25,32.0,111.1,Caution
+UNIONBANK,Union Bank of India,Financials,6.8,0.9,4.4,7.15,6.0,-63.2,Discount
+VBL,Varun Beverages Ltd,Fast Moving Consumer Goods,85.0,18.5,55.3,1.15,62.0,88.9,Caution
+VEDL,Vedanta Ltd,Materials,9.5,2.1,6.2,7.85,8.5,-47.2,Discount
+ZOMATO,Zomato Ltd,Consumer Discretionary,125.0,12.5,81.3,0.55,95.0,127.3,Caution

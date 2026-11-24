@@ -1,0 +1,10 @@
+company_id,field,raw_text,reason
+HDFCBANK,compounded_sales_growth,TTM:            47%,Regex pattern did not match
+HDFCBANK,compounded_profit_growth,TTM:                27%,Regex pattern did not match
+HDFCBANK,roe,Last Year:    17%,Regex pattern did not match
+INFY,compounded_sales_growth,TTM:            3%,Regex pattern did not match
+INFY,compounded_profit_growth,TTM:                 8%,Regex pattern did not match
+INFY,roe,Last Year:     32%,Regex pattern did not match
+TCS,compounded_sales_growth,TTM:            5%             ,Regex pattern did not match
+TCS,compounded_profit_growth,TTM:                 8%,Regex pattern did not match
+TCS,roe,Last Year:       52%,Regex pattern did not match

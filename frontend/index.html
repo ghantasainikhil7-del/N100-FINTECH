@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2330D158'><rect width='24' height='24' rx='6' fill='%23000'/><path d='M6 16l4-4 3 3 5-7' stroke='%2330D158' stroke-width='2.5' fill='none'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N100 Intelligence · Apple Native Stocks</title>
+    <!-- Standalone Tailwind CDN for runtime utility fallback -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              ios: {
+                bg: '#000000',
+                card: '#1C1C1E',
+                cardSub: '#2C2C2E',
+                border: 'rgba(255, 255, 255, 0.08)',
+                borderHover: 'rgba(255, 255, 255, 0.16)',
+                text: '#FFFFFF',
+                textSecondary: '#8E8E93',
+                textMuted: '#636366',
+                green: '#30D158',
+                red: '#FF453A',
+                blue: '#0A84FF',
+                orange: '#FF9F0A',
+                purple: '#BF5AF2',
+              }
+            },
+            fontFamily: {
+              sans: [
+                '-apple-system',
+                'BlinkMacSystemFont',
+                '"SF Pro Display"',
+                '"SF Pro Text"',
+                '"Plus Jakarta Sans"',
+                'sans-serif'
+              ],
+            },
+            borderRadius: {
+              'ios': '16px',
+              'ios-sm': '10px',
+              'ios-lg': '20px',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-black text-white antialiased min-h-screen overflow-x-hidden" style="background-color: #000000 !important; color: #FFFFFF !important; margin: 0; padding: 0;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

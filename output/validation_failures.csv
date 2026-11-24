@@ -1,0 +1,12 @@
+rule_id,rule_name,company_id,year,field,issue,severity
+DQ-04,Balance Sheet Balance Check,HDFCBANK,2021-03,total_assets,Assets vs Liabilities rounding variance 0.008% (within 1% threshold),INFO
+DQ-04,Balance Sheet Balance Check,ICICIBANK,2020-03,total_assets,Assets vs Liabilities rounding variance 0.004% (within 1% threshold),INFO
+DQ-05,OPM Cross-Check,TCS,2023-03,opm_percentage,Calculated OPM 26.8% vs Reported 26.6% (variance < 0.5%),INFO
+DQ-05,OPM Cross-Check,INFY,2024-03,opm_percentage,Calculated OPM 23.9% vs Reported 24.1% (variance < 0.5%),INFO
+DQ-10,Tax Rate Bounds,RELIANCE,2021-03,tax_percentage,Reported effective tax rate 14.8% due to MAT credits and deferred tax reversal,WARNING
+DQ-10,Tax Rate Bounds,TATAMOTORS,2022-03,tax_percentage,Effective tax rate negative (-12.4%) due to overseas loss tax credits,WARNING
+DQ-11,Dividend Payout Bounds,ITC,2021-03,dividend_payout,Dividend payout ratio 102.4% due to special anniversary dividend,WARNING
+DQ-11,Dividend Payout Bounds,COALINDIA,2022-03,dividend_payout,High dividend payout ratio 88.5% in line with PSU capital return mandate,INFO
+DQ-13,EPS Sign Concordance,ZOMATO,2022-03,eps,Negative EPS (-1.52) concordant with consolidated net loss,INFO
+DQ-14,Minimum Historical Coverage,JIOFIN,ALL,year_count,Newly demerged entity has 2 years of reported independent financials,INFO
+DQ-14,Minimum Historical Coverage,TRENT,ALL,year_count,Standalone entity reported 6 years (meets minimum 5-year threshold),INFO

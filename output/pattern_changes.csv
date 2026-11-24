@@ -1,0 +1,37 @@
+company_id,sector,previous_year_pattern,latest_year_pattern
+ABB,Industrials,Mixed,Shareholder Returns
+ADANIENSOL,Energy,Mixed,Shareholder Returns
+ADANIENT,Industrials,Shareholder Returns,Mixed
+ADANIGREEN,Energy,Shareholder Returns,Mixed
+AXISBANK,Financials,Mixed,Growth Funded by Debt
+BAJAJ-AUTO,Consumer Discretionary,Liquidating Assets,Reinvestor
+BANKBARODA,Financials,Pre-Revenue,Growth Funded by Debt
+BEL,Industrials,Liquidating Assets,Shareholder Returns
+BRITANNIA,Consumer Staples,Shareholder Returns,Liquidating Assets
+CANBK,Financials,Growth Funded by Debt,Reinvestor
+DLF,Real Estate,Reinvestor,Mixed
+GAIL,Energy,Mixed,Shareholder Returns
+GODREJCP,Consumer Staples,Shareholder Returns,Mixed
+HAVELLS,Industrials,Liquidating Assets,Shareholder Returns
+HDFCBANK,Financials,Mixed,Liquidating Assets
+HDFCLIFE,Financials,Mixed,Shareholder Returns
+ICICIBANK,Financials,Growth Funded by Debt,Mixed
+ICICIPRULI,Financials,Reinvestor,Mixed
+INDUSINDBK,Financials,Growth Funded by Debt,Pre-Revenue
+IRFC,Financials,Growth Funded by Debt,Shareholder Returns
+ITC,Consumer Staples,Reinvestor,Liquidating Assets
+JINDALSTEL,Materials,Shareholder Returns,Mixed
+JIOFIN,Financials,Reinvestor,Mixed
+KOTAKBANK,Financials,Growth Funded by Debt,Mixed
+LODHA,Real Estate,Liquidating Assets,Mixed
+LT,Industrials,Shareholder Returns,Liquidating Assets
+MOTHERSON,Consumer Discretionary,Shareholder Returns,Mixed
+PNB,Financials,Mixed,Growth Funded by Debt
+RELIANCE,Energy,Mixed,Shareholder Returns
+SBIN,Financials,Growth Funded by Debt,Reinvestor
+SHRIRAMFIN,Financials,Distress Signal,Growth Funded by Debt
+SUNPHARMA,Healthcare,Mixed,Shareholder Returns
+TATACONSUM,Consumer Staples,Shareholder Returns,Mixed
+TATAPOWER,Energy,Mixed,Shareholder Returns
+TITAN,Consumer Discretionary,Mixed,Reinvestor
+TORNTPHARM,Healthcare,Mixed,Shareholder Returns
